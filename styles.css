@@ -7,6 +7,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+    background-color: #fff1f2;
 }
 
 .SiteName {
@@ -30,4 +31,26 @@ body {
     border: #881337;
     font-size: large;
     color: white;
+}
+
+.bookForm {
+    border: 3px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+.form-container {
+    border: 3px solid #881337;
+    color: white;
+    border-radius: 30px;
+    background-color: #881337;
+    padding: 20px;
+    display: flex;
+    height: 30vh;
+    width: 20vw;
+    justify-content: center;
+    flex-direction: column;
 }
