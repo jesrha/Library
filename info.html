@@ -11,26 +11,29 @@
         </div>
 
         <div class="button">
-            <button class="butt">Add Book</button>
+            <button id="butt">Add Book</button>
         </div>
 
-        <div class="bookForm">
-            <form class="form-container">
-                <h1>Enter Book Info</h1>
+        <div id="bookForm" class="hidden">
+            <form id="form-container">
+                <h1 id="form-title">Enter Book Info</h1>
 
                 <label for="author">Author's Name:</label>
-                <input type="text" class="author" required>
+                <input type="text" id="author" required>
 
                 <label for="title">Title of Book:</label>
-                <input type="text" class="title" required>
+                <input type="text" id="title" required>
 
                 <label for="pages">Pages:</label>
-                <input type="number" class="pages" required>
-
-                <button>Add</button>
+                <input type="number" id="pages" required>
+                
+                <button id="form-button" type="submit">Add Book</button>
             </form>
         </div>
+        
+        <div id="library">
 
+        </div>
 
         <script src="script.js"></script>
     </body>

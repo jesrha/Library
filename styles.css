@@ -23,7 +23,8 @@ body {
     justify-content: center;
     margin-top: 4vh;
 }
-.butt {
+
+#butt {
     background-color: #881337;
     height: 65px;
     width: 140px;
@@ -31,10 +32,10 @@ body {
     border: #881337;
     font-size: large;
     color: white;
+    cursor: pointer;
 }
 
-.bookForm {
-    border: 3px solid purple;
+#bookForm {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +43,11 @@ body {
     width: 100vw;
 }
 
-.form-container {
+#bookForm.hidden {
+    display: none;
+}
+
+#form-container {
     border: 3px solid #881337;
     color: white;
     border-radius: 30px;
@@ -53,4 +58,44 @@ body {
     width: 20vw;
     justify-content: center;
     flex-direction: column;
+}
+
+#form-title {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin: 3px;
+}
+
+input {
+    height: 60px;   
+}
+
+#form-button {
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    font-size: large;
+    margin-top: 20px;
+    height: 30px;
+    width: 10vw;
+    border-radius: 7px;
+}
+
+#library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.card {
+    background-color: white;
+    border: solid 2px brown;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
 }
